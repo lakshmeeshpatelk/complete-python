@@ -89,6 +89,53 @@ print(friend_name.startswith("s"))
 print(friend_name.endswith("a"))
 print(friend_name*7)
 
+#Type casting - converting one data type to another
+
+team_name = ""
+team_players = 11
+team_points = 13.5
+team_qualified = True
+
+
+# team_name = int(team_name) error
+# team_name = float(team_name) error
+team_name = bool(team_name)
+print(team_name)
+
+
+team_players = str(team_players)
+print(team_players)
+
+team_players =  float(team_players)
+print(team_players)
+
+team_players = bool(team_players)
+print(team_players)
+
+team_points = int(team_points)
+print(team_points)
+
+
+team_points = bool(team_points)
+print(team_points)
+
+
+
+
+
+team_points = str(team_points)
+print(team_points)
+
+
+
+team_qualified = float(team_qualified)
+print(team_qualified)
+
+
+
+
+
+
 
 
 
